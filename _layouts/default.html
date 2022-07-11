@@ -134,7 +134,6 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2 style="color:#DF7401;"> <b>Work Experience</b></h2>
-              <p>&nbsp;</p>
               <p><strong>University of Illinois at Chicago</strong><span style="font-weight: 400;">&nbsp;</span></p>
               <p><strong>Department of Family Endocrinology, </strong><span style="font-weight: 400;">Graduate Research Assistant | </span><em><span style="font-weight: 400;">January 2022 &ndash; Present</span></em></p>
               <ul>
@@ -177,30 +176,6 @@
           </tr>
         </table>     
         
-        
-        
-        
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;cellspacing=0">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2 style="color:#DF7401;"> <b>News</b></h2>
-            </td>
-          </tr>
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'news' %}
-          <tr>
-            <td style="width:75%;vertical-align:middle">
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-
 
 
   
